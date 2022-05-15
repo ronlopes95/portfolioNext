@@ -1,4 +1,4 @@
-const link = ['About', 'Projects', 'Contact']
+const link = ['Sobre', 'Projetos', 'Contato']
 
 export const Navbar = () => (
   <nav className="flex w-full justify-between">
