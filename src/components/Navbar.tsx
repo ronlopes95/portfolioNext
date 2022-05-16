@@ -1,16 +1,20 @@
-const link = ['Sobre', 'Projetos', 'Contato']
+const link = [
+  { name: 'Sobre', link: '#sobre' },
+  { name: 'Projetos', link: '#projetos' },
+  { name: 'Contato', link: '#contato' },
+]
 
 export const Navbar = () => (
-  <nav className="flex w-full justify-between border-b-[0.5px] pb-3">
+  <nav className="flex w-full justify-between">
     <h2>Portfólio</h2>
-    <ul className="flex items-center gap-32">
-      {link.map((link) => (
-        <li key={link}>
+    <ul className="flex items-center gap-20">
+      {link.map(({ name, link }) => (
+        <li key={name}>
           <a
-            href=""
-            className="defaultText text-[1.375rem] leading-[1.6875rem] duration-500 ease-in-out hover:text-indigo-600"
+            href={link}
+            className="defaultText text-[1.375rem] leading-[1.6875rem]"
           >
-            {link}
+            {name}
           </a>
         </li>
       ))}

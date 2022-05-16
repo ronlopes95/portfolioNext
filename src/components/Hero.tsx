@@ -6,9 +6,22 @@ export const Hero = () => (
       <h2 className="mb-6">RONALDO LOPES</h2>
       <h1 className="mb-4">DESENVOLVEDOR FRONTEND</h1>
       <p className="mb-12">
-        I implement user interface design and solve user problems with HTML, CSS
-        AND Javascript. I have 2 years of making products that solve user
-        problems and implementing responsive website.
+        Eu implemento designs de interface de usuário e resolvo problemas com
+        <span className="duration-500 ease-in-out hover:text-indigo-600">
+          {' '}
+          HTML, CSS e Javascript
+        </span>
+        ! Tenho aproximadamente 3 meses de experiência criando aplicativos que
+        resolvem problemas de usuários e implementando sites responsivos.
+        Atualmente me julgo competente em{' '}
+        <span className="duration-500 ease-in-out hover:text-indigo-600">
+          ReactJS e NexTJS
+        </span>
+        . Contando também com proficiência em{' '}
+        <span className="duration-500 ease-in-out hover:text-indigo-600">
+          Typescript, TailwindCSS e StyledComponents
+        </span>
+        .
       </p>
       <div className="flex gap-5">
         <a

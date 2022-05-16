@@ -1,5 +1,5 @@
 export const Contato = () => (
-  <>
+  <section id="contato">
     <div className="w-full text-center">
       <h3 className="pt-[7.5rem]">
         Está procurando um desenvolvedor para ajudar em seu projeto?
@@ -65,5 +65,5 @@ export const Contato = () => (
         </svg>
       </a>
     </div>
-  </>
+  </section>
 )
