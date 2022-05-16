@@ -10,12 +10,15 @@ export const Hero = () => (
         AND Javascript. I have 2 years of making products that solve user
         problems and implementing responsive website.
       </p>
-      <a
-        href=""
-        className="defaultTexttext-xl rounded-[1.25rem] bg-custom-white-50 py-3 px-8 text-custom-black-50"
-      >
-        Contato
-      </a>
+      <div className="flex gap-5">
+        <a
+          href="https://drive.google.com/file/d/1nTCEprz_AaxIgPOEpiPvawkRsQrrhnTv/view?usp=sharing"
+          target="_blank"
+          className="defaultTexttext-xl rounded-[1.25rem] bg-custom-white-50 py-3 px-8 text-custom-black-50 duration-500 ease-in-out hover:scale-110 hover:bg-indigo-600 hover:text-custom-white-100"
+        >
+          Curriculo
+        </a>
+      </div>
     </div>
     <div className="grid flex-1 place-content-center">
       <Image

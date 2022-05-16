@@ -10,7 +10,13 @@ export const Projects = () => (
     </div>
 
     <span className="border-6 rounded-['1.25rem'] border-solid border-custom-white-100">
-      <Image src={project1} alt="Foto do projeto 1" width="397" height="397" />
+      <Image
+        className="border-6 border-custom-white-100y rounded-['1.25rem'] border-solid"
+        src={project1}
+        alt="Foto do projeto 1"
+        width="397"
+        height="397"
+      />
     </span>
   </>
 )

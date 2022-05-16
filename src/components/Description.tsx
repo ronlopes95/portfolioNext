@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Description = () => (
   <div>
-    <div className="flex w-full content-center justify-center">
+    <div className="flex w-full justify-center">
       <h2 className="pt-[7.5rem]">Um pouco sobre mim!</h2>
     </div>
 
