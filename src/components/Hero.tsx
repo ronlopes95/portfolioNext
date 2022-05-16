@@ -6,7 +6,8 @@ export const Hero = () => (
       <h2 className="mb-6">RONALDO LOPES</h2>
       <h1 className="mb-4">DESENVOLVEDOR FRONTEND</h1>
       <p className="mb-12">
-        Eu implemento designs de interface de usuário e resolvo problemas com
+        Oi! Eu implemento designs de interface de usuário e resolvo problemas
+        com
         <span className="duration-500 ease-in-out hover:text-indigo-600">
           {' '}
           HTML, CSS e Javascript
@@ -15,7 +16,7 @@ export const Hero = () => (
         resolvem problemas de usuários e implementando sites responsivos.
         Atualmente me julgo competente em{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">
-          ReactJS e NexTJS
+          ReactJS e NextJS
         </span>
         . Contando também com proficiência em{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">

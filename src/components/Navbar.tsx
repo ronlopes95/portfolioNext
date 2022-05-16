@@ -7,12 +7,12 @@ const link = [
 export const Navbar = () => (
   <nav className="flex w-full justify-between">
     <h2>Portfólio</h2>
-    <ul className="flex items-center gap-20">
+    <ul className="flex items-center gap-20 border-b-2">
       {link.map(({ name, link }) => (
         <li key={name}>
           <a
             href={link}
-            className="defaultText text-[1.375rem] leading-[1.6875rem]"
+            className="defaultText text-[1.375rem] leading-[1.6875rem] duration-500 ease-in-out hover:text-indigo-600"
           >
             {name}
           </a>

@@ -16,16 +16,20 @@ export const Description = () => (
 
       <div className="max-w-[38rem] flex-1 items-center justify-between pt-[7.563rem]">
         <p>
-          Desenvolvedor novato mas com garra, voltado primariamente para
-          desenvolvimento de aplicativos web porém ativamente estudando e
-          determinado a aprender diversas vertentes da área de programação!
+          Nascido e criado no Rio, fluente em Inglês e Carioquês. Viciado em
+          tecnologia, video-games e comida gordurosa. Tenho um cachorro e uma
+          gata que valem por dez. Fanboy de Warcraft até morrer. Já tive uma
+          onda de crossfiteiro mas hoje só malho pra poder comer. Estou sempre à
+          procura de novos desafios, sem nenhuma vergonha de admitir quando
+          preciso de ajuda e ansioso para me juntar à uma equipe para fincar
+          raízes em uma empresa, crescer profissionalmente e mudar a vida de
+          muitas pessoas.
         </p>
         <br />
         <p>
-          Nascido e criado no Rio, RJ. Viciado em tecnologia e à procura de
-          novos desafios, sem nenhuma vergonha de admitir quando preciso de
-          ajuda e ansioso para me juntar à uma equipe para fincar raízes em uma
-          empresa, crescer profissionalmente e mudar a vida de muitas pessoas.
+          Desenvolvedor novato mas com garra, voltado primariamente para
+          desenvolvimento de aplicativos web porém ativamente estudando e
+          determinado a aprender diversas vertentes da área de programação!
         </p>
       </div>
     </div>

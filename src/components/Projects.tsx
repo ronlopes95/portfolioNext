@@ -6,7 +6,7 @@ const projectsList = ['Project1', 'Project2', 'Project3', 'Project 4']
 export const Projects = () => (
   <section id="projetos">
     <div className="flex justify-center">
-      <h2 className="pt-[7.5rem] pb-20">Projetos</h2>
+      <h2 className="pt-[7.5rem] pb-20">Meus projetos!</h2>
     </div>
 
     <span className="border-6 rounded-['1.25rem'] border-solid border-custom-white-100">
