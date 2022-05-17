@@ -9,7 +9,10 @@ export const Contato = () => (
     </div>
 
     <div className="mx-auto flex w-96 items-center justify-between pt-10">
-      <a href="https://api.whatsapp.com/send?phone=5521979433173">
+      <a
+        href="https://api.whatsapp.com/send?phone=5521979433173"
+        target="_blank"
+      >
         <svg
           className="fill-custom-white-100 duration-500 ease-in-out hover:scale-110 hover:fill-indigo-600"
           xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +25,7 @@ export const Contato = () => (
         </svg>
       </a>
 
-      <a href="https://github.com/ronlopes95">
+      <a href="https://github.com/ronlopes95" target="_blank">
         <svg
           className="fill-custom-white-100 duration-500 ease-in-out hover:scale-110 hover:fill-indigo-600"
           xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +39,7 @@ export const Contato = () => (
         </svg>
       </a>
 
-      <a href="https://www.instagram.com/ronaldolopes9256/">
+      <a href="https://www.instagram.com/ronaldolopes9256/" target="_blank">
         <svg
           className="fill-custom-white-100 duration-500 ease-in-out hover:scale-110 hover:fill-indigo-600"
           xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +54,10 @@ export const Contato = () => (
         </svg>
       </a>
 
-      <a href="https://www.linkedin.com/in/ronaldo-figueiredo-santiago-lopes-rj/">
+      <a
+        href="https://www.linkedin.com/in/ronaldo-figueiredo-santiago-lopes-rj/"
+        target="_blank"
+      >
         <svg
           className="fill-custom-white-100 duration-500 ease-in-out hover:scale-110 hover:fill-indigo-600"
           xmlns="http://www.w3.org/2000/svg"
