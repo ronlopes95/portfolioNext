@@ -15,6 +15,7 @@ export const Projects = () => (
 
     <div className="flex">
       <div className="pr-5">
+        <h3 className="text-center">Portfolio</h3>
         <a href="https://github.com/ronlopes95/portfolioNext" target="_blank">
           <Image
             src={project1}
@@ -35,6 +36,7 @@ export const Projects = () => (
       </div>
 
       <div className="pr-5">
+        <h3 className="text-center">Calculadora</h3>
         <a
           href="https://github.com/ronlopes95/calculadora-javascript"
           target="_blank"
@@ -61,6 +63,7 @@ export const Projects = () => (
       </div>
 
       <div>
+        <h3 className="text-center">Feedback Widget</h3>
         <a href="https://github.com/ronlopes95/to-do-list" target="_blank">
           <Image
             src={placeholder}
