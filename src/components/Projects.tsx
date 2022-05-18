@@ -42,11 +42,12 @@ export const Projects = () => (
           target="_blank"
         >
           <Image
-            src={placeholder}
+            src={project2}
             alt="Foto do projeto 2"
             width="397"
             height="397"
             className="!border-6 rounded-[1.25rem] !border-solid !border-custom-white-100 !duration-500 !ease-in-out hover:!border-indigo-600"
+            objectFit="cover"
           />
         </a>
         <div className="flex">
@@ -66,11 +67,12 @@ export const Projects = () => (
         <h3 className="text-center">Feedback Widget</h3>
         <a href="https://github.com/ronlopes95/to-do-list" target="_blank">
           <Image
-            src={placeholder}
+            src={project3}
             alt="Foto do projeto 3"
             width="397"
             height="397"
             className="!border-6 rounded-[1.25rem] !border-solid !border-custom-white-100 !duration-500 !ease-in-out hover:!border-indigo-600"
+            objectFit="cover"
           />
         </a>
         <div className="flex">

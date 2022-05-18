@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className="m-auto max-w-[77.5rem] pt-20">
       <Head>
-        <title>Portfólio</title>
+        <title>Portfólio - Ron Lopes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
