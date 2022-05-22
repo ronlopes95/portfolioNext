@@ -18,6 +18,9 @@ module.exports = {
           50: '#0A0119',
         },
       },
+      screens: {
+        tablet: '600px',
+      },
     },
   },
   plugins: [],

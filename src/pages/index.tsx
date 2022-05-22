@@ -9,17 +9,19 @@ import { Contato } from '../components/Contato'
 
 const Home: NextPage = () => {
   return (
-    <div className="m-auto max-w-[77.5rem] pt-20">
+    <>
       <Head>
         <title>Portfólio - Ron Lopes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Hero />
-      <Description />
-      <Projects />
-      <Contato />
-    </div>
+      <div className="m-auto flex max-w-[77.5rem] flex-col gap-24 p-6 sm:gap-[7.5rem] sm:py-20">
+        <Navbar />
+        <Hero />
+        <Description />
+        <Projects />
+        <Contato />
+      </div>
+    </>
   )
 }
 

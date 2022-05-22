@@ -1,14 +1,12 @@
 export const Contato = () => (
   <section id="contato">
     <div className="w-full text-center">
-      <h3 className="pt-[7.5rem]">
-        Está procurando um desenvolvedor para ajudar em seu projeto?
-      </h3>
+      <h3>Está procurando um desenvolvedor para ajudar em seu projeto?</h3>
       <h2 className="pt-8">Fale comigo!</h2>
       <h1 className="pt-8">ronaldofslopes@gmail.com</h1>
     </div>
 
-    <div className="mx-auto flex w-96 items-center justify-between pt-10">
+    <div className="mx-auto flex w-auto max-w-[24rem] items-center justify-between pt-10">
       <a
         href="https://api.whatsapp.com/send?phone=5521979433173"
         target="_blank"

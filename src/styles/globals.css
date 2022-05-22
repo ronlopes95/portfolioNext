@@ -11,8 +11,12 @@
     @apply font-inter text-5xl font-medium leading-10 text-custom-white-50;
   }
 
+  h1 {
+    @apply text-2xl sm:text-5xl;
+  }
+
   h2 {
-    @apply text-[2rem];
+    @apply text-xl sm:text-[2rem];
   }
 
   h3 {
@@ -20,7 +24,7 @@
   }
 
   p {
-    @apply font-inter text-lg font-normal leading-7 text-custom-white-100;
+    @apply font-inter text-base font-normal leading-7 text-custom-white-100 sm:text-lg;
   }
 
   .defaultText {
