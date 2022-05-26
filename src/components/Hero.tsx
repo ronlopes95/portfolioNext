@@ -5,25 +5,29 @@ export const Hero = () => (
     <div className="max-w-[38rem] flex-1">
       <h2 className="mb-6">RONALDO LOPES</h2>
       <h1 className="mb-4">DESENVOLVEDOR FRONTEND</h1>
-      <p className="mb-12">
+      <p>
         Oi! Eu implemento designs de interface de usuário e resolvo problemas
-        com
+        com{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">
-          HTML, CSS e Javascript
-        </span>
-        Tenho aproximadamente 3 meses de experiência criando aplicativos que
-        resolvem problemas de usuários e implementando sites responsivos.
-        Atualmente me julgo competente em
+          HTML, CSS e Javascript.
+        </span>{' '}
+        Tenho aproximadamente 3 meses de experiência criando aplicativos e
+        implementando sites responsivos. Atualmente me julgo competente em{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">
           ReactJS e NextJS
-        </span>
-        Contando também com proficiência em
+        </span>{' '}
+        Contando também com proficiência em outros ecosistemas e/ou ferramentas,
+        tais como:{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">
-          Typescript, TailwindCSS e StyledComponents
-        </span>
-        .
+          Typescript, SASS, TailwindCSS, StyledComponents, GIT e Culturas Ágeis,
+        </span>{' '}
+        para mencionar algumas!
       </p>
-      <div className="flex gap-5">
+      <br />
+      <p className="mb-12">
+        Dê uma olhadinha no meu currículo abaixo, não precisa baixar!
+      </p>
+      <div className="flex justify-center gap-5 sm:justify-start">
         <a
           href="https://drive.google.com/file/d/1nTCEprz_AaxIgPOEpiPvawkRsQrrhnTv/view?usp=sharing"
           target="_blank"

@@ -3,7 +3,6 @@ export const Contato = () => (
     <div className="w-full text-center">
       <h3>Está procurando um desenvolvedor para ajudar em seu projeto?</h3>
       <h2 className="pt-8">Fale comigo!</h2>
-      <h1 className="pt-8">ronaldofslopes@gmail.com</h1>
     </div>
 
     <div className="mx-auto flex w-auto max-w-[24rem] items-center justify-between pt-10">
@@ -66,6 +65,18 @@ export const Contato = () => (
           viewBox="0 0 64 64"
         >
           <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M25,44h-5V26h5V44z M22.485,24h-0.028C20.965,24,20,22.888,20,21.499C20,20.08,20.995,19,22.514,19c1.521,0,2.458,1.08,2.486,2.499 C25,22.887,24.035,24,22.485,24z M44,44h-5v-9c0-3-1.446-4-3-4c-1.445,0-3,1-3,4v9h-5V26h5v3c0.343-0.981,1.984-3,5-3c4,0,6,3,6,8 V44z"></path>
+        </svg>
+      </a>
+
+      <a href="mailto:ronaldofslopes@gmail.com" target="_blank">
+        <svg
+          className="fill-custom-white-100 duration-500 ease-in-out hover:scale-110 hover:fill-indigo-600"
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          viewBox="0 0 16 16"
+        >
+          <path d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z" />
         </svg>
       </a>
     </div>

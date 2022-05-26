@@ -6,6 +6,7 @@ import { Hero } from '../components/Hero'
 import { Description } from '../components/Description'
 import { Projects } from '../components/Projects'
 import { Contato } from '../components/Contato'
+import { Footer } from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Description />
         <Projects />
         <Contato />
+        <Footer />
       </div>
     </>
   )

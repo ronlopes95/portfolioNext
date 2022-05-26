@@ -25,7 +25,7 @@ const projectsList = [
     link: 'https://github.com/ronlopes95/nlw-widget-feedback',
     image: project3,
     alt: 'Foto do projeto 3',
-    techs: ['ReactJS', 'TailwindCSS', 'HeadlessUI'],
+    techs: ['ReactJS', 'TailwindCSS'],
   },
 ]
 
