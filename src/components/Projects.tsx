@@ -33,7 +33,7 @@ export const Projects = () => (
   <section id="projetos" className="flex flex-col justify-center gap-20">
     <h2 className="self-center">Meus projetos!</h2>
 
-    <div className="flex justify-between gap-5">
+    <div className="m-auto flex flex-wrap justify-between gap-5 sm:w-auto sm:flex-nowrap">
       {projectsList.map(({ name, link, image, alt, techs }) => (
         <div className="flex flex-col gap-6" key={name}>
           <h3 className="text-center">{name}</h3>
