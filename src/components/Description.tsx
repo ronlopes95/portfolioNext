@@ -27,13 +27,12 @@ export const Description = () => (
       <div className="flex-1">
         <p>
           Nascido e criado no Rio, fluente em Inglês e Carioquês. Viciado em
-          tecnologia, video-games e comida gordurosa. Tenho um cachorro e uma
-          gata que valem por dez. Fanboy de Warcraft até morrer. Já tive uma
-          onda de crossfiteiro mas hoje só malho pra poder comer. Estou sempre à
-          procura de novos desafios, sem nenhuma vergonha de admitir quando
-          preciso de ajuda e ansioso para me juntar à uma equipe para fincar
-          raízes em uma empresa, crescer profissionalmente e mudar a vida de
-          muitas pessoas.
+          tecnologia, video-games e D&amp;D. Tenho um cachorro e uma gata que
+          valem por dez. Fanboy de Warcraft até morrer. Já tive uma onda de
+          crossfiteiro mas hoje só malho pra poder comer. Estou sempre à procura
+          de novos desafios, sem nenhuma vergonha de admitir quando preciso de
+          ajuda e ansioso para me juntar à uma equipe para fincar raízes em uma
+          empresa, crescer profissionalmente e mudar a vida de muitas pessoas.
         </p>
         <br />
         <p>

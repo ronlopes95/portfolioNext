@@ -14,10 +14,10 @@ export const Hero = () => (
         Tenho aproximadamente 3 meses de experiência criando aplicativos e
         implementando sites responsivos. Atualmente me julgo competente em{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">
-          ReactJS e NextJS
+          ReactJS e NextJS.
         </span>{' '}
-        Contando também com proficiência em outros ecosistemas e/ou ferramentas,
-        tais como:{' '}
+        Tenho também proficiência em outros ecosistemas e/ou ferramentas, tais
+        como:{' '}
         <span className="duration-500 ease-in-out hover:text-indigo-600">
           Typescript, SASS, TailwindCSS, StyledComponents, GIT e Culturas Ágeis,
         </span>{' '}
