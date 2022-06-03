@@ -29,7 +29,7 @@ export const Hero = () => (
       </p>
       <div className="flex justify-center gap-5 sm:justify-start">
         <a
-          href="https://drive.google.com/file/d/1nTCEprz_AaxIgPOEpiPvawkRsQrrhnTv/view?usp=sharing"
+          href="https://drive.google.com/file/d/1kSG2_O3h44mwekNRytO7d5rUbbG362XI/view?usp=sharing"
           target="_blank"
           className="defaultText rounded-[1.25rem] bg-custom-white-50 py-3 px-8 font-inter text-xl text-custom-black-50 duration-500 ease-in-out hover:scale-110 hover:bg-indigo-600 hover:text-custom-white-100"
         >
