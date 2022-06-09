@@ -2,6 +2,7 @@ import Image from 'next/image'
 import project1 from '/public/project1.png'
 import project2 from '/public/project2.png'
 import project3 from '/public/project3.png'
+import project4 from '/public/project4.png'
 import placeholder from '/public/placeholder.png'
 import imagensProjeto from 'styles/imgProjeto.module.css'
 
@@ -18,7 +19,7 @@ const projectsList = [
     link: 'https://github.com/ronlopes95/calculadora-javascript',
     image: project2,
     alt: 'Foto do projeto 2',
-    techs: ['HTML', 'CSS', 'Javascript'],
+    techs: ['HTML', 'CSS', 'JS'],
   },
   {
     name: 'Feedback Widget',
@@ -26,6 +27,13 @@ const projectsList = [
     image: project3,
     alt: 'Foto do projeto 3',
     techs: ['ReactJS', 'TailwindCSS'],
+  },
+  {
+    name: 'Wandpot Mania',
+    link: 'https://github.com/ronlopes95/wandpotMania',
+    image: project4,
+    alt: 'Foto do projeto 4',
+    techs: ['ReactJS', 'Vite'],
   },
 ]
 
