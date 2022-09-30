@@ -1,8 +1,8 @@
 export const Contato = () => (
   <section id="contato">
     <div className="w-full text-center">
-      <h3>Está procurando um desenvolvedor para ajudar em seu projeto?</h3>
-      <h2 className="pt-8">Fale comigo!</h2>
+      <h3>Are you looking for a developer for your project?</h3>
+      <h2 className="pt-8">Contact me!</h2>
     </div>
 
     <div className="mx-auto flex w-auto max-w-[24rem] items-center justify-between pt-10">
