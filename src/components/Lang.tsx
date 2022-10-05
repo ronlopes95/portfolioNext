@@ -1,6 +1,6 @@
 // (EN | PT)
 import Image from 'next/image'
-import brazilianFlag from '/public/Brazilian_flag.png'
+import brazilianFlag from '/public/Brazilian_Flag.png'
 import usukFlag from '/public/US-UK_Flag.png'
 
 type langProps = {
