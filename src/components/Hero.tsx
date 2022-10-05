@@ -17,7 +17,7 @@ export const Hero = ({ selectedLang }: { selectedLang: 'enUs' | 'ptBr' }) => (
         websites.
       </p>
       <p>
-        I mainly develop through ReactJS and NextJS. I am also pproficient in
+        I mainly develop through ReactJS and NextJS. I am also proficient in
         other libraries, frameworks and tools, such as: Typescript, SASS,
         TailwindCSS, StyledComponents, Vite, GIT, NodeJS, Express, noSQL plus
         notions of Agile Cultures, teamwork, code versioning to name a few of my
