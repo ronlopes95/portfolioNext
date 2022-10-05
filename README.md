@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/103221476/169719911-44bcdce7-b8a0-4f2e
 
 <h2>Link: <a href="https://ronaldolopes.vercel.app/"> ACCESS </a></h2>
 
-<h2>Sobre:</h2>
+<h2>About:</h2>
 Entirely personal project where I sought knowledge about NextJS and TailwindCSS, attempting to expose my work and my own image as a professional in the indstry! It was and still is quite a challenge, but through this project I slowly learned several crucial points about some ReactJS hooks (useState and whatnot), a few NextJS's features (Image, etc), responsiveness, code structuring, versioning and content organization. It was specially useful to learnThe layout was adapted from a Figma community project (@AdeyemoTolulope) that I used as a base.
 
 <h2>Development:</h2>
