@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Portfólio - Ron Lopes</title>
+        <title>Portfolio - Ron Lopes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-auto flex max-w-[77.5rem] flex-col gap-24 p-6 sm:gap-[7.5rem] sm:py-20">
