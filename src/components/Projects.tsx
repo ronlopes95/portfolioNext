@@ -15,7 +15,7 @@ const projectsList = [
     techs: ['NextJS', 'TailwindCSS'],
   },
   {
-    name: 'Calculadora',
+    name: 'Calculator',
     link: 'https://github.com/ronlopes95/calculadora-javascript',
     image: project2,
     alt: 'Foto do projeto 2',
@@ -39,7 +39,7 @@ const projectsList = [
 
 export const Projects = () => (
   <section id="projetos" className="flex flex-col justify-center gap-20">
-    <h2 className="self-center">Meus projetos!</h2>
+    <h2 className="self-center">My projects!</h2>
 
     <div className="m-auto flex flex-wrap justify-between gap-5 sm:w-auto sm:flex-nowrap">
       {projectsList.map(({ name, link, image, alt, techs }) => (

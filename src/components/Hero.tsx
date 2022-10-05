@@ -1,40 +1,37 @@
 import Image from 'next/image'
 
-export const Hero = () => (
+export const Hero = ({ selectedLang }: { selectedLang: 'enUs' | 'ptBr' }) => (
   <section className="flex flex-col items-center justify-between sm:flex-row">
+    {/* {selectedLang === 'enUS' ? (
+      <p className="tailwindcsss here">english content</p>
+    ) : (
+      <p className="tailwindcsss here">conteúdo português</p>
+    )}
+    ) */}
     <div className="max-w-[38rem] flex-1">
-      <h2 className="mb-6">RONALDO LOPES</h2>
-      <h1 className="mb-4">DESENVOLVEDOR FRONTEND</h1>
+      <h2 className="mb-6">RON LOPES</h2>
+      <h1 className="mb-4">FRONT END DEVELOPER</h1>
       <p>
-        Oi! Eu implemento designs de interface de usuário e resolvo problemas
-        com{' '}
-        <span className="duration-500 ease-in-out hover:text-indigo-600">
-          HTML, CSS e Javascript.
-        </span>{' '}
-        Tenho aproximadamente 3 meses de experiência criando aplicativos e
-        implementando sites responsivos. Atualmente me julgo competente em{' '}
-        <span className="duration-500 ease-in-out hover:text-indigo-600">
-          ReactJS e NextJS.
-        </span>{' '}
-        Tenho também proficiência em outros ecosistemas e/ou ferramentas, tais
-        como:{' '}
-        <span className="duration-500 ease-in-out hover:text-indigo-600">
-          Typescript, SASS, TailwindCSS, StyledComponents, GIT, NodeJS, Express,
-          noSQL e Culturas Ágeis
-        </span>{' '}
-        para mencionar algumas!
+        Hey there! I create and implement interfaces as a front end developer. I
+        have approximately 1 year of experience creating apps and responsive
+        websites.
+      </p>
+      <p>
+        I mainly develop through ReactJS and NextJS. I am also proficient in
+        other libraries, frameworks and tools, such as: Typescript, SASS,
+        TailwindCSS, StyledComponents, Vite, GIT, NodeJS, Express, noSQL plus
+        notions of Agile Cultures, teamwork, code versioning to name a few of my
+        skills!
       </p>
       <br />
-      <p className="mb-12">
-        Dê uma olhadinha no meu currículo abaixo, não precisa baixar!
-      </p>
+      <p className="mb-12">Take a look at my resume, no download required! </p>
       <div className="flex justify-center gap-5 sm:justify-start">
         <a
-          href="https://drive.google.com/file/d/13pWJQxmJzizsUQGk2YWdzk6mSqG03Zva/view?usp=sharing"
+          href="https://docs.google.com/document/d/164jVvuxpJYVDIk6U6tl-fUaI0-dxFVcPgwAH2bRfGMk/edit?usp=sharing"
           target="_blank"
           className="defaultText rounded-[1.25rem] bg-custom-white-50 py-3 px-8 font-inter text-xl text-custom-black-50 duration-500 ease-in-out hover:scale-110 hover:bg-indigo-600 hover:text-custom-white-100"
         >
-          Currículo
+          Resume
         </a>
       </div>
     </div>

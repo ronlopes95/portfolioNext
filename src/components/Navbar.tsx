@@ -1,12 +1,12 @@
 const link = [
-  { name: 'Sobre', link: '#sobre' },
-  { name: 'Projetos', link: '#projetos' },
-  { name: 'Contato', link: '#contato' },
+  { name: 'About', link: '#sobre' },
+  { name: 'Projects', link: '#projetos' },
+  { name: 'Contact', link: '#contato' },
 ]
 
 export const Navbar = () => (
   <header className="flex w-full justify-between">
-    <h2>Portfólio</h2>
+    <h2>Portfolio</h2>
     <nav className="hidden sm:block">
       <ul className="flex items-center gap-20 border-b-2">
         {link.map(({ name, link }) => (

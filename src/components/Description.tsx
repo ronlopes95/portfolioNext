@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Description = () => (
   <section id="sobre" className="flex flex-col gap-16 sm:gap-20">
-    <h2 className="text-center">Um pouco sobre mim!</h2>
+    <h2 className="text-center">A little about me!</h2>
 
     <div className="flex flex-col justify-between gap-5 md:flex-row">
       <div>
@@ -26,19 +26,21 @@ export const Description = () => (
 
       <div className="flex-1">
         <p>
-          Nascido e criado no Rio, fluente em Inglês e Carioquês. Viciado em
-          tecnologia, video-games e D&amp;D. Tenho um cachorro e uma gata que
-          valem por dez. Fanboy de Warcraft até morrer. Já tive uma onda de
-          crossfiteiro mas hoje só malho pra poder comer. Estou sempre à procura
-          de novos desafios, sem nenhuma vergonha de admitir quando preciso de
-          ajuda e ansioso para me juntar à uma equipe para fincar raízes em uma
-          empresa, crescer profissionalmente e mudar a vida de muitas pessoas.
+          Born and raised in Rio, Brazil. Fluent in both English and Portuguese,
+          with a strong understanding of Spanish as well! I'm extremely into
+          technology, video games and D&amp;D.
         </p>
         <br />
         <p>
-          Desenvolvedor novato mas com garra, voltado primariamente para
-          desenvolvimento de aplicativos web porém ativamente estudando e
-          determinado a aprender diversas vertentes da área de programação!
+          I have a dog and a cat that are worth ten whole pets. Warcraft fanboy
+          till my last breath. Oh and I once had a crossfit phase, but nowadays
+          I only work out so I can eat more!
+        </p>
+        <br />
+        <p>
+          I'm always looking for new challenges, not shy to ask for help at all
+          and looking forward to joining a team to put down roots with, grow
+          professionally and change the life of many people!
         </p>
       </div>
     </div>
